@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  /* min-height: 100vh; */
+  background-image: url(./medical-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200vh;
+  background-position: center;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: fixed;
+  top: 5%;
+  left: 0%;
+  right: 0%;
+  padding: 1.5rem 0rem;
+}
+a {
+  text-decoration: none;
+  margin: 0rem 1rem;
+  color: #fff;
+}
+a:active {
+  color: cyan;
+}
+a:hover {
+  color: aqua;
+}
+i {
+  margin: 0rem 0.5rem;
+  color: #fff;
+}
+i:hover {
+  color: #57e2b2;
+  cursor: pointer;
+}
+.logo {
+  margin: 0rem 0.5rem;
+  color: #fff;
+}
+.info{
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    font-style: italic;
+    text-decoration: underline;
+}
+.info2{
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    font-style: italic;
+    margin-right: 4rem;
+    margin-left: 4rem;
+}
+
